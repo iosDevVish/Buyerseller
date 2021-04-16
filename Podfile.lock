@@ -1,0 +1,73 @@
+PODS:
+  - Alamofire (4.9.1)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.1.0):
+    - GoogleMaps (= 3.1.0)
+    - GooglePlaces (= 3.1.0)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - ImageSlideshow/Core (1.9.2)
+  - ImageSlideshow/SDWebImage (1.9.2):
+    - ImageSlideshow/Core
+    - SDWebImage (>= 3.7)
+  - IQKeyboardManagerSwift (6.5.6)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
+  - SkyFloatingLabelTextField (3.8.0)
+  - SwiftToast (1.1.3)
+  - TransitionableTab (0.2.0)
+  - "UITextView+Placeholder (1.4.0)"
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - GooglePlacePicker
+  - GooglePlaces
+  - ImageSlideshow/SDWebImage
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - SDWebImage
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SwiftToast
+  - TransitionableTab (~> 0.2.0)
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - SDWebImage
+    - SkyFloatingLabelTextField
+    - SwiftToast
+    - TransitionableTab
+    - "UITextView+Placeholder"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlacePicker: fa975116ac202ac29822c0a79758ea1c4db5a95f
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SwiftToast: 029cbeda85c04fb3fa5df774ba461b19971bc6c5
+  TransitionableTab: 54a5d0af475033bdb83959fde4e5d6201af7e2ab
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+
+PODFILE CHECKSUM: f35bd761fbbac8dbb82845627bb6cc002c729608
+
+COCOAPODS: 1.10.1

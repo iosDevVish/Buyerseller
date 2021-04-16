@@ -1,0 +1,6 @@
+framework module Pods_MetSellBuy_MetSellBuyUITests {
+  umbrella header "Pods-MetSellBuy-MetSellBuyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

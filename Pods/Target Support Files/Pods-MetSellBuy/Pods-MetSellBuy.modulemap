@@ -1,0 +1,6 @@
+framework module Pods_MetSellBuy {
+  umbrella header "Pods-MetSellBuy-umbrella.h"
+
+  export *
+  module * { export * }
+}
