@@ -40,5 +40,22 @@ extension SelectCarModel: UITableViewDelegate, UITableViewDataSource{
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let nextVC = storyboard?.instantiateViewController(withIdentifier: "SelectCarYearVC") as! SelectCarYearVC
+        navigationController?.pushViewController(nextVC, animated: true)
+    }
+}
+extension SelectCarModel: UICollectionViewDelegate,UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 1
+    }
     
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CarModelCollectionViewCell", for: indexPath) as? CarModelCollectionViewCell else {
+            return UICollectionViewCell()
+        }
+        return cell
+    }
+    
+  
 }

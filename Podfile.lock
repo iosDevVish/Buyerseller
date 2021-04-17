@@ -1,5 +1,10 @@
 PODS:
   - Alamofire (4.9.1)
+  - BSGridCollectionViewLayout (1.2.5)
+  - BSImagePicker (2.10.3):
+    - BSGridCollectionViewLayout (= 1.2.5)
+    - BSImageView (= 1.0.3)
+  - BSImageView (1.0.3)
   - GoogleMaps (3.1.0):
     - GoogleMaps/Maps (= 3.1.0)
   - GoogleMaps/Base (3.1.0)
@@ -28,6 +33,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.9.1)
+  - BSImagePicker (~> 2.8)
   - GooglePlacePicker
   - GooglePlaces
   - ImageSlideshow/SDWebImage
@@ -42,6 +48,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - BSGridCollectionViewLayout
+    - BSImagePicker
+    - BSImageView
     - GoogleMaps
     - GooglePlacePicker
     - GooglePlaces
@@ -56,6 +65,9 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BSGridCollectionViewLayout: 333dcb457a5a3bdd9212607ab5756553dcfe06cb
+  BSImagePicker: 07404254f2fcdaf5a2eb403c0f8c337267ce8738
+  BSImageView: a149459433a2687157d034c78e059d30ac7f2544
   GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
   GooglePlacePicker: fa975116ac202ac29822c0a79758ea1c4db5a95f
   GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
@@ -68,6 +80,6 @@ SPEC CHECKSUMS:
   TransitionableTab: 54a5d0af475033bdb83959fde4e5d6201af7e2ab
   "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
 
-PODFILE CHECKSUM: f35bd761fbbac8dbb82845627bb6cc002c729608
+PODFILE CHECKSUM: e42967fc9d392f76f3009a1a641ed1a14b92eb71
 
 COCOAPODS: 1.10.1

@@ -19,6 +19,7 @@ target 'MetSellBuy' do
     pod 'Alamofire', '~> 4.9.1'
     pod 'SDWebImage'
     pod 'TransitionableTab', '~> 0.2.0'
+    pod "BSImagePicker", "~> 2.8"
 
   target 'MetSellBuyTests' do
     inherit! :search_paths

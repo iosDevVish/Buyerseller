@@ -15,8 +15,7 @@ class SearchCityVC: UIViewController {
     let stateName = ["BEIJING","BEIRUT","BELGRADE","BELEM","BEIJING","BEIRUT","BELGRADE","BELEM","BEIJING","BEIRUT","BELGRADE","BELEM"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        searchBars.setImage(UIImage(named: "building (4)-1"), for: .search, state: .normal)
-        searchBars.backgroundColor = .white
+       
     }
     
 
@@ -38,7 +37,8 @@ extension SearchCityVC: UICollectionViewDelegate, UICollectionViewDataSource{
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-    //
+        let nextVC = storyboard?.instantiateViewController(withIdentifier: "SelectCarBrandVC") as! SelectCarBrandVC
+        navigationController?.pushViewController(nextVC, animated: true)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let yourWidth = collectionView.bounds.width/4.0

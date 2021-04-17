@@ -42,7 +42,7 @@ open class BubbleTabBar: UITabBar,UITabBarControllerDelegate {
     
     override open var backgroundColor: UIColor? {
         didSet {
-            barTintColor = backgroundColor
+            barTintColor = #colorLiteral(red: 0.006034056656, green: 0.1214975491, blue: 0.3719334304, alpha: 1)
         }
     }
     

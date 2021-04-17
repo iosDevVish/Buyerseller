@@ -29,6 +29,22 @@ extension SelectCarBrandVC: UITableViewDelegate, UITableViewDataSource{
         cell.carBrandName.text = "Hyundai"
         return cell
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let nextVC = storyboard?.instantiateViewController(withIdentifier: "SelectCarModel") as! SelectCarModel
+        navigationController?.pushViewController(nextVC, animated: true)
+    }
+}
+extension SelectCarBrandVC: UICollectionViewDelegate,UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 1
+    }
     
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CarBrandsCollectionViewCell", for: indexPath) as? CarBrandsCollectionViewCell else {
+            return UICollectionViewCell()
+        }
+        return cell
+    }
     
+  
 }

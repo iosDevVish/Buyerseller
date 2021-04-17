@@ -35,7 +35,8 @@ extension SelectStateVC: UICollectionViewDelegate, UICollectionViewDataSource{
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-    //
+        let nextVC = storyboard?.instantiateViewController(withIdentifier: "SearchCityVC") as! SearchCityVC
+        navigationController?.pushViewController(nextVC, animated: true)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let yourWidth = collectionView.bounds.width/4.0

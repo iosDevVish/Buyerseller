@@ -22,9 +22,9 @@ class UserOption: UIViewController {
     }
     
     @IBAction func action_buyer(_ sender: Any) {
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Seller", bundle:nil)
-        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Buyers") as! BuyerSignInVC
-        self.present(nextViewController, animated:true, completion:nil)
+//        let storyBoard : UIStoryboard = UIStoryboard(name: "Buyers", bundle:nil)
+//        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "BuyerSignInVC") as! BuyerSignInVC
+//        self.present(nextViewController, animated:true, completion:nil)
     }
     
 

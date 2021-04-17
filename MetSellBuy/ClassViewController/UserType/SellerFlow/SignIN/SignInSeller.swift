@@ -19,7 +19,7 @@ class SignInSeller: UIViewController {
 //MARK: - Action Button
     @IBAction func LoginButon(_ sender: Any) {
         let storyBoards : UIStoryboard = UIStoryboard(name: "Seller", bundle:nil)
-        let nextVC = storyBoards.instantiateViewController(withIdentifier: "SubscriptionVC") as! RegularPlanVC
+        let nextVC = storyBoards.instantiateViewController(withIdentifier: "RegularPlanVC") as! RegularPlanVC
         navigationController?.pushViewController(nextVC, animated: true)
     }
     

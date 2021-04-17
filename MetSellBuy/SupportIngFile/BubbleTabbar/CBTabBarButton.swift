@@ -157,7 +157,7 @@ public class CBTabBarButton: UIControl {
             self.tabLabel.alpha = 0.0
         }
         UIView.transition(with: tabImage, duration: duration, options: [.transitionCrossDissolve], animations: {
-            self.tabImage.tintColor = UIColor.hexColor(rgbValue: 0xFCC591)//.black
+            self.tabImage.tintColor = UIColor.hexColor(rgbValue: 000000)//.black
         }, completion: nil)
 
     }
@@ -170,10 +170,10 @@ public class CBTabBarButton: UIControl {
         }
         UIView.animate(withDuration: duration * 0.5, delay: duration * 0.5, options: [], animations: {
             self.tabLabel.alpha = 1.0
-            self.tabLabel.textColor = UIColor.hexColor(rgbValue: 0x754C29)
+            self.tabLabel.textColor = UIColor.hexColor(rgbValue: 000000)
         }, completion: nil)
         UIView.transition(with: tabImage, duration: duration, options: [.transitionCrossDissolve], animations: {
-            self.tabImage.tintColor = UIColor.hexColor(rgbValue: 0x754C29)//self.tintColor
+            self.tabImage.tintColor = UIColor.hexColor(rgbValue: 000000)//self.tintColor
         }, completion: nil)
     }
 
